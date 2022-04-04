@@ -1,0 +1,46 @@
+@charset 'utf-8';
+
+body {
+  background: url(../img/p8142.jpg) no-repeat center/cover;
+  object-fit: cover;
+  height: 100vh;
+  font-family: 'Yomogi', cursive;
+}
+
+#btn {
+  font-family: 'Righteous', cursive;
+}
+
+h1 {
+  font-family: 'Palette Mosaic', cursive;
+  text-transform: uppercase;
+  color: #e91e6366;
+  margin-top: 80px;
+  margin-left: 40px;
+  font-size: 3rem;
+}
+
+#btn {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 40vh;
+  width: 100%;
+  text-align: center;
+  line-height: 400px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #009688a6;
+}
+
+@media (min-width:600px) {
+  #btn {
+    background-color: #fff;
+    opacity: .5;
+    width: 300px;
+    left: 100px;
+    bottom: 10px;
+    border-radius: 50%;
+    line-height: 300px;
+  }
+}
