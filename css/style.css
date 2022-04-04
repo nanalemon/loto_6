@@ -9,6 +9,7 @@ body {
   height: 100vh;
   font-family: 'Yomogi', cursive;
   margin-bottom: 0;
+  background-color: bisque;
 }
 
 #btn {
