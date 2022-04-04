@@ -40,6 +40,24 @@ h1 {
   opacity: .5;
 }
 
+.msg {
+  font-family: 'Josefin Sans', sans-serif;
+  margin-left: 40px;
+  text-transform: uppercase;
+  margin-top: 50px;
+  line-height: 1.5;
+  color: #e91e6366;
+}
+.msg::after {
+  content: url(../img/cat.png);
+  margin-left: 3px;
+  margin-top: 10px;
+}
+
+img {
+  display: none;
+}
+
 @media (min-width:600px) {
   #btn {
     background-color: #fff;
@@ -49,5 +67,15 @@ h1 {
     bottom: 10px;
     border-radius: 50%;
     line-height: 300px;
+  }
+  .msg::after {
+    display: none;
+  }
+  img {
+    display: block;
+    position: absolute;
+    left: 240px;
+    top: 0;
+    width: 10%;
   }
 }
