@@ -7,13 +7,12 @@ body {
   background: url(../img/p8142.jpg) no-repeat center/cover;
   object-fit: cover;
   height: 100vh;
-  font-family: 'Yomogi', cursive;
   margin-bottom: 0;
   background-color: #ffc0cb66;
 }
 
 #btn {
-  font-family: 'Righteous', cursive;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 h1 {
@@ -35,7 +34,6 @@ h1 {
   text-align: center;
   line-height: 220px;
   font-size: 2rem;
-  font-weight: bold;
   color: #009688a6;
   opacity: .5;
 }
